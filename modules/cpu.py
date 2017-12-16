@@ -40,7 +40,6 @@ class Job(object):
         self.taskNumber = taskNumber
         self.priority = priority
         self.jobNumber = jobNumber
-        self.releaseTime = releaseTime
         # Execution time
         self.et = et
         self.deadline = deadline
